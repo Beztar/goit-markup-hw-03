@@ -56,20 +56,17 @@ img {display: block;}
 }
 .container {
     width: 1158px; 
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
     }
 .header-container {
     display: flex;
     align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }    
 .header-navigation {
     display: flex;
     align-items:center ;
+    padding: 24px 0
 }
 .logo {
     font-family: "Raleway",sans-serif;
@@ -104,14 +101,12 @@ img {display: block;}
 .header-link:hover, .header-link:focus{
     color:var(--accent-color);}
 .header-adress { 
-    display: flex;
-    gap: 40px;
     font-style: normal ;
     margin-left: auto;
     }
 .header-adress-list{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     }
 .header-adress-link {
    font-weight: 400; 
