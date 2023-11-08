@@ -62,6 +62,7 @@ img {display: block;}
 .header-container {
     display: flex;
     align-items: center;
+    padding: 24px 0; 
 }    
 .header-navigation {
     display: flex;
@@ -92,12 +93,9 @@ img {display: block;}
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0,32px;
   color:var(--title-color); 
   text-decoration: none;
-  padding: 24px 0; 
-}
-.header-link-active {text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 .header-link:hover, .header-link:focus{
     color:var(--accent-color);}
@@ -113,7 +111,7 @@ img {display: block;}
    font-weight: 400; 
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.02em;
+   letter-spacing: 0.32px;
    color: var(--main-color);
    text-decoration: none; }
 .header-adress-link:hover,.header-adress-link:focus {color: var(--accent-color);}
@@ -157,7 +155,6 @@ img {display: block;}
 .section {
     padding-top: 120px;
     padding-bottom: 120px;}
-.principles {background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #FFF;}
 .principles-list {
     display: flex; 
     gap: 24px;}    
@@ -179,7 +176,6 @@ img {display: block;}
 }  
 .team-title-text {margin-bottom: 8px;}   
 /*--------------portfolio-------------*/  
-.portfolio {background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #FFF;}
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
