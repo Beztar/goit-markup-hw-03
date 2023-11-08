@@ -66,7 +66,7 @@ img {display: block;}
 .header-navigation {
     display: flex;
     align-items:center ;
-}
+    }
 .logo {
     font-family: "Raleway",sans-serif;
     font-style: normal;
@@ -79,13 +79,13 @@ img {display: block;}
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4D5AE5;
+    padding: 24px 0;
 }
 .header-logospan {color:var(--title-color);
 }
 .header-list {
     display: flex;
-    gap: 40px;
-    padding: 24px 0;
+    gap: 40px;  
 }
 
 .header-link {
