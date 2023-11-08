@@ -85,7 +85,7 @@ img {display: block;}
 }
 .header-list {
     display: flex;
-    gap: 40px;  
+    gap: 40px;
 }
 
 .header-link {
@@ -95,6 +95,7 @@ img {display: block;}
   letter-spacing: 0,32px;
   color:var(--title-color); 
   text-decoration: none;
+  padding: 24px 0;  
 }
 .header-link:hover, .header-link:focus{
     color:var(--accent-color);}
