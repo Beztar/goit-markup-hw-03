@@ -53,12 +53,13 @@ img {display: block;}
 .header {
     border-bottom: 1px solid #E7E9FC;
     background-color:  #FFF;
+    padding: 24px 0;
 }
 .container {
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    }
+    }    
 .header-container {
     display: flex;
     align-items: center; 
@@ -70,17 +71,15 @@ img {display: block;}
 .logo {
     font-family: "Raleway",sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
-    margin-right: 76px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: #4D5AE5;
-    padding: 24px 0;
-}
+    color: #4D5AE5;}   
+.header-logo {
+    display: inline-block; 
+    margin-right: 76px;}
 .header-logospan {color:var(--title-color);
 }
 .header-list {
@@ -93,9 +92,7 @@ img {display: block;}
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0,32px;
-  color:var(--title-color); 
-  text-decoration: none;
-  padding: 24px 0;  
+  color:var(--title-color);  
 }
 .header-link:hover, .header-link:focus{
     color:var(--accent-color);}
@@ -113,7 +110,7 @@ img {display: block;}
    line-height: 1.5;
    letter-spacing: 0.32px;
    color: var(--main-color);
-   text-decoration: none; }
+   }
 .header-adress-link:hover,.header-adress-link:focus {color: var(--accent-color);}
  /*----------------main-------------*/
 .hero { background-color:var(--title-color);
@@ -158,7 +155,7 @@ img {display: block;}
 .principles-list {
     display: flex; 
     gap: 24px;}    
-.principles-item {flex-basis: calc((100%-72px)/4);}
+.principles-item {flex-basis: calc((100% - 72px)/4);}
 .principles-title-text {margin-bottom: 8px;}
 .team {background: #F4F4FD;
     }
@@ -167,8 +164,8 @@ img {display: block;}
      gap: 24px;
     }
 
-.team-item { flex-basis: calc((100%-72px)/4);
-          border-radius: 0px 0px 4px 4px;
+.team-item { flex-basis: calc((100% - 72px)/4);
+             border-radius: 0px 0px 4px 4px;
              background:  #FFF;}
 .team-text-container{
  text-align: center;
